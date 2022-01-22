@@ -10,9 +10,9 @@ public class Exercicio_4 {
 		mínima de 1 hora e máxima de 24 horas.*/ 
 		int horaInicio, horaFim, soma;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Insira a hora que o jogo começou");
+		System.out.println("Insira a hora que o jogo começou (0 até 23)");
 		horaInicio = sc.nextInt();
-		System.out.println("Insira a hora que o jogo terminou");
+		System.out.println("Insira a hora que o jogo terminou (0 até 23)");
 		horaFim = sc.nextInt();
 		if(horaInicio == horaFim) {
 			soma = 24;
