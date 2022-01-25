@@ -1,4 +1,4 @@
-package ExercíciosEstruturaSequencial;
+package ExerciciosEstruturaSequencial;
 
 import java.util.Scanner;
 
@@ -17,9 +17,9 @@ public class Exercicio_2 {
 		System.out.println("Digite o raio");
 		raio = sc.nextDouble();
 		area = pin * raio*raio;
-		System.out.println("Área = π * raio²");
+		System.out.println("�?rea = π * raio²");
 		System.out.printf("%.5f * %.2f² = %.4f\n", pin, raio, area);
-		System.out.println("Área = " + area);
+		System.out.println("�?rea = " + area);
 		sc.close();
 	}
 

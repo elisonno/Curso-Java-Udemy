@@ -1,8 +1,8 @@
-package ExercíciosEstruturaSequencial;
+package ExerciciosEstruturaSequencial;
 
 import java.util.Scanner;
 
-public class Exercício_5 {
+public class Exercicio_5 {
 
 	public static void main(String[] args) {
 		/*Fazer um programa para ler o código de uma peça 1, o número de peças 1, 
@@ -25,6 +25,10 @@ public class Exercício_5 {
 		System.out.println("Insira o valor unitário do item 2: ");
 		valor_item_2 = sc.nextDouble();
 		valor_total = (valor_item_1 * quantidade_item_1)+(valor_item_2*quantidade_item_2);
+		System.out.printf("Código: %d - Quantidade do item: %d - Valor do item: %.2f\n", 
+				codigo_item_1, quantidade_item_1, valor_item_1);
+		System.out.printf("Código: %d - Quantidade do item: %d - Valor do item: %.2f\n", 
+				codigo_item_2, quantidade_item_2, valor_item_2);
 		System.out.printf("O valor a pagar no total é R$: %.2f", valor_total);
 		sc.close();
 
