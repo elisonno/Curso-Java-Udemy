@@ -10,10 +10,10 @@ public class BankAccount {
 		this.accountHolder = accountHolder;
 	}
 	
-	public BankAccount(String numberAccount, String accountHolder, double balance) {
+	public BankAccount(String numberAccount, String accountHolder, double initialValue) {
 		this.numberAccount = numberAccount;
 		this.accountHolder = accountHolder;
-		this.balance = balance;
+		depositValue(initialValue);
 	}
 
 	public String getAccountHolder() {
