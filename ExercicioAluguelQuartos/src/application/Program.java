@@ -26,8 +26,7 @@ public class Program {
 		}
 		for(int i = 0; i < rooms.length; i++) {
 			if (rooms[i] != null) {
-				System.out.println(i + ": " + rooms[i].getName() +", "
-						+ rooms[i].getEmail());
+				System.out.println(i + ": " + rooms[i]);
 			}
 		}
 				
